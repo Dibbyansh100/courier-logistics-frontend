@@ -128,24 +128,8 @@ The platform supports 3 distinct roles verified against Spring Security authorit
 - **DRY Principle**: Duplicate tracking stepper logic (~750 LOC) unified into `<TrackingView />`.
 - **Derived State**: Removed redundant `useState` + `useEffect` in authentication context to eliminate unnecessary re-renders.
 - **Strict Backward Compatibility**: Root files (`Axios.jsx`, `AuthContext.jsx`, `StatusBadge.jsx`, etc.) serve as lightweight forwarding adapters so existing integrations never break.
-- **Zero UI Regression**: 100% pixel-perfect preservation of colors, typography, animations, responsive breakpoints, and user flows.        ## 📸 Application Screenshots
-
-The following screenshots show the Courier & Logistics frontend and key steps in the shipment booking workflow.
-
-### Home Page
-![Courier & Logistics Home Page](screenshots/Logistic_home.png)
-
-### Shipment Booking — Package Details
-![Shipment Booking - Package Details](screenshots/L_booking-shipment2.png)
-
-### Shipment Booking — Delivery Destination
-![Shipment Booking - Delivery Destination](screenshots/L_booking-shipment3.png)
-
-### Shipment Booking — Confirmation Step
-![Shipment Booking - Confirmation Step](screenshots/L_booking-shipment5.png)
-
-> Additional dashboard and shipment screenshots can be added after personal information, addresses, tracking IDs, and other sensitive fields have been redacted.
-
+- **Zero UI Regression**: 100% pixel-perfect preservation of colors, typography, animations, responsive breakpoints, and user flows.      
+ 
 ## 📸 Application Screenshots
 
 Explore the three role-based dashboards and the five-step shipment booking workflow. Click a screenshot to view it at full resolution. Personal account, recipient, shipment, and tracking details have been masked in the images prepared for this gallery.
