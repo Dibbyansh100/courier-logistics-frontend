@@ -145,3 +145,33 @@ The following screenshots show the Courier & Logistics frontend and key steps in
 ![Shipment Booking - Confirmation Step](screenshots/L_booking-shipment5.png)
 
 > Additional dashboard and shipment screenshots can be added after personal information, addresses, tracking IDs, and other sensitive fields have been redacted.
+
+## 📸 Application Screenshots
+
+Explore the three role-based dashboards and the five-step shipment booking workflow. Click a screenshot to view it at full resolution. Personal account, recipient, shipment, and tracking details have been masked in the images prepared for this gallery.
+
+### Home Page
+
+[![Courier & Logistics Home Page](screenshots/Logistic_home.png)](screenshots/Logistic_home.png)
+
+### Role-Based Dashboards
+
+| Admin — Operations | Customer — Shipments | Delivery Agent — Queue |
+|:---:|:---:|:---:|
+| [<img src="screenshots/L_Admin.png" alt="Admin operations dashboard" width="300"/>](screenshots/L_Admin.png) | [<img src="screenshots/L_Customer.png" alt="Customer dashboard" width="300"/>](screenshots/L_Customer.png) | [<img src="screenshots/L_Agent.png" alt="Delivery agent dashboard" width="300"/>](screenshots/L_Agent.png) |
+
+### Shipment Booking Workflow
+
+The booking wizard takes customers from pickup information through package specification, destination, review and confirmation; it then shows the successful booking result.
+
+| Step 1 — Customer & Pickup | Step 2 — Package Details |
+|:---:|:---:|
+| [<img src="screenshots/L_booking-shipment1.png" alt="Step 1 customer pickup form" width="470"/>](screenshots/L_booking-shipment1.png) | [<img src="screenshots/L_booking-shipment2.png" alt="Step 2 package details form" width="470"/>](screenshots/L_booking-shipment2.png) |
+
+| Step 3 — Delivery Destination | Step 4 — Booking Review & Cost |
+|:---:|:---:|
+| [<img src="screenshots/L_booking-shipment3.png" alt="Step 3 destination form" width="470"/>](screenshots/L_booking-shipment3.png) | [<img src="screenshots/L_booking-shipment4.png" alt="Step 4 booking review and cost" width="470"/>](screenshots/L_booking-shipment4.png) |
+
+| Step 5 — Submit Booking | Booking Success |
+|:---:|:---:|
+| [<img src="screenshots/L_booking-shipment5.png" alt="Step 5 booking confirmation" width="470"/>](screenshots/L_booking-shipment5.png) | [<img src="screenshots/L_booking-shipment6.png" alt="Successful shipment booking" width="470"/>](screenshots/L_booking-shipment6.png) |
