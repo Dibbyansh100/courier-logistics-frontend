@@ -61,7 +61,7 @@ src/
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/Dibbyansh100/Courier_Logistics_Project.git
+git clone https://github.com/Dibbyansh100/courier-logistics-frontend.git
 
 # Navigate to frontend workspace
 cd "LogisticAndTracking Frontend"
