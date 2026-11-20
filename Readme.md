@@ -1,6 +1,6 @@
 # 📦 Courier & Logistics Tracking Platform (Frontend)
 
-Enterprise-grade Courier & Logistics web application built with **React 18**, **React Router v6**, and **Vite**. Provides specialized portals for **Customers**, **Delivery Agents**, and **Operations Administrators**, featuring real-time consignment tracking, multi-step freight booking, fleet dispatching, and automated invoicing.
+ Courier & Logistics web application built with **React 18**, **React Router v6**, and **Vite**. Provides specialized portals for **Customers**, **Delivery Agents**, and **Operations Administrators**, featuring real-time consignment tracking, multi-step freight booking, fleet dispatching, and automated invoicing.
 
 ---
 
@@ -127,8 +127,7 @@ The platform supports 3 distinct roles verified against Spring Security authorit
 - **Separation of Concerns**: UI components never make direct Axios calls; all HTTP operations flow through `src/services/`.
 - **DRY Principle**: Duplicate tracking stepper logic (~750 LOC) unified into `<TrackingView />`.
 - **Derived State**: Removed redundant `useState` + `useEffect` in authentication context to eliminate unnecessary re-renders.
-- **Strict Backward Compatibility**: Root files (`Axios.jsx`, `AuthContext.jsx`, `StatusBadge.jsx`, etc.) serve as lightweight forwarding adapters so existing integrations never break.
-- **Zero UI Regression**: 100% pixel-perfect preservation of colors, typography, animations, responsive breakpoints, and user flows.      
+- **Strict Backward Compatibility**: Root files (`Axios.jsx`, `AuthContext.jsx`, `StatusBadge.jsx`, etc.) serve as lightweight forwarding adapters so existing integrations never break.      
  
 ## 📸 Application Screenshots
 
